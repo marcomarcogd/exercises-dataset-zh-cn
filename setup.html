@@ -477,11 +477,17 @@
       .language-select { min-width: 0; max-width: 128px; }
       .back-link { padding: 6px 8px; }
       .back-link span { display: none; }
-      .page-shell { grid-template-columns: 1fr; }
+      .page-shell { grid-template-columns: minmax(0, 1fr); }
       .page-nav { display: none; }
-      .page-content { padding: 32px 0 60px 0; }
+      .page-content { width: 100%; min-width: 0; padding: 32px 0 60px 0; }
       .section-body { padding-left: 0; }
       .section-desc { padding-left: 0; }
+      .tab-bar { overflow-x: auto; }
+      .selector-group { min-width: 0; max-width: 100%; }
+      .selector-tabs { flex-wrap: wrap; }
+      .url-input { min-width: 0; }
+      .endpoint-header { flex-wrap: wrap; }
+      .endpoint-desc { flex-basis: 100%; margin-left: 0; }
     }
   </style>
 </head>

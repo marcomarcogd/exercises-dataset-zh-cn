@@ -112,6 +112,8 @@ Runtime translations are separate from the canonical dataset. `data/exercises.js
 
 Each locale pack contains both pages' UI messages, instruction-language labels, taxonomy mappings, and optional per-exercise `{ name, steps }` translations. English uses the canonical dataset directly; `locales/zh-CN.js` supplies complete Simplified Chinese translations for all 1,324 records.
 
+The Simplified Chinese pack has been reviewed record by record in two independent passes: all 1,324 exercise names, 7,662 instruction steps, 107 taxonomy labels, and 90 interface messages were checked against the canonical English data and, where the source text was ambiguous, the corresponding image or GIF. Only clear or reviewer-agreed corrections were applied; unresolved source-data ambiguities were left unchanged rather than guessed.
+
 To add a language:
 
 1. Copy `locales/en.js` to a BCP 47 filename such as `locales/fr-FR.js`.
