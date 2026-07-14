@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 💪 Exercises Dataset 动作训练数据集
+# 💪 Exercises Dataset 全中文汉化版
 
 <p>
   <img src="videos/0025-EIeI8Vf.gif" width="120" alt="杠铃卧推" />
